@@ -1,0 +1,24 @@
+.codigo{
+color: blue;
+}
+.design{
+  color: red;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: double;
+  background: rgb(36,31,0);
+background: linear-gradient(90deg, rgba(36,31,0,1) 0%, rgba(39,255,0,1) 0%, rgba(44,102,130,1) 66%);
+
+}
+.underline{
+  text-decoration: underline;
+
+}
+.Cursos{
+  padding: 0pt 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(36,31,0);
+  background: linear-gradient(90deg, rgba(36,31,0,1) 0%, rgba(39,255,0,1) 0%, rgba(44,102,130,1) 66%);
+}

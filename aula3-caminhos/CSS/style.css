@@ -1,0 +1,11 @@
+h2 a{
+  color: blueviolet;
+  text-decoration: none;
+}
+a{
+  color: chartreuse;
+}
+h2{
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

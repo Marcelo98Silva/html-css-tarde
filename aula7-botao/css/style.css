@@ -1,0 +1,38 @@
+a{
+  background: #84e;
+  color: #fff;
+  padding: 2px;
+}
+
+.botao{
+  display: block; /*Cria um elemento de bloco*/
+  background: #FFD700; /*cor de fundo*/
+  margin-top:10px; /*margem do topo*/
+  color:#111111;/*cor do conteúdo*/
+  width: 80px;/*largura*/
+  padding: 5px;/*preenchimento inteiro*/
+  border: 2px solid #333;/*borda*/
+  box-shadow: 10px 10px 10px 5px #777;
+  border-radius: 2px;/*arredodamento dos cantos da borda*/
+  text-decoration: none;/*remove ou adiciona linha no texto*/
+  text-align: center;/*alimento do texto*/
+  font-size:14px ;/*tamanho da fonte de texto*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/*família ou tipo de fonte*/
+
+}
+.botao{
+  display: block;
+  background: #FFD700;
+  margin-top:30px;
+  color:#111111;
+  width: 80px;
+  padding: 2px;
+  border: 2px solid #333;
+  box-shadow: 10px 10px 10px 5px #777;
+  border-radius: 2px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade</title>
+  <style>
+    body{
+      background-image: url('/aula17-imagem-de-fundo/imagem/imagens/wallpaper004.jpg');
+      background-repeat: repeat;
+      }
+      header{
+        background-color: rgb(99, 96, 245);
+        color: white;
+        text-align: center;
+        padding: 50px;
+        margin: 10px;
+      }
+      main{
+        border: 10px;
+        border: 1px solid blue;
+        text-align: center;
+        margin: 17px;
+        padding:0px;
+        border-radius: 10px 10px 0px 0px;
+        width: 1000px;
+        margin: auto;
+        
+      }
+      #cores{
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 30px;
+      }
+      #f1{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 30px 30px 30px 30px;
+      width: 190px;
+      height: 200px;
+      background-color: aqua;
+    
+      }
+      #f2{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 30px 30px 30px 30px;
+      width: 190px;
+      height: 200px;
+      background-image: linear-gradient(orange, red);
+      }
+      #f3{
+      display: inline-block;
+      border: 1px solid blue;
+      border-radius: 30px 30px 30px 30px;
+      width: 180px;
+      height: 200px;
+      background-image: url('/aula17-imagem-de-fundo/imagem/imagens/pattern003.png');
+      }
+      footer{
+        text-align: center;
+        background-color: rgb(99, 96, 245);
+        color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    background
+  </header>
+  <main>
+    <p>O exercício a seguir faz um resumo de tudo que aprendi sobre imagens e cores de fundo, utilizando a propriedade background em HTML5 e CSS3. </p>
+    <div id="cores">
+      <h1>Cores no plano de fundo</h1>
+    <p>De forma geral, existem três maneiras mais simples de preencher uma caixa em HTML, usando cores sólidas,gradientes ou imagens. Essas formas são representadas a seguir:</p>
+    <div class="forma" id="f1"></div>
+    <div class="forma" id="f2"></div>
+    <div class="forma" id="f3"></div>
+    </div>
+    
+
+
+    <h1>imagens</h1>
+    <p> É possivel colocar imagens como fundo de uma caixa e configurar suas propriedades de diversas maneiras</p>
+    <h2>
+      Background Repeat
+     
+    </h2>
+    <p> Com essa propriedade, é possivel definir se uma imagem de fundo irá se repetir quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem  em si. por padão ela smepre vai ser repetida. Essa propriedade possui 4valores</p>
+    <div></div>
+    <div></div>
+    <div></div>
+    <h2>Background Position</h2>
+    <p>Além de escolher o nivel de repetição do background, também podemos mudar a posição de referência de início das repetições. Por padão, é considerado o canto esquerdo superior (left top), mais podemos ter várias opções.</p>
+    <h2>
+      Background Size
+    </h2>
+    <p> Outra coisa que podemos fazer é redimensionar a imagem para forçá-la a caber na caixa. por padrão nenhum redimensionamento será aplicado, e aimahem será aplicado, e a imagem será exibida do seu tamanho natural. porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
+  </main>
+ 
+  <footer>
+    Exercício Aula 17: utilizando github,HTML e CSS3, feito por Marcelo Silva()
+  </footer>
+</body>
+</html>
