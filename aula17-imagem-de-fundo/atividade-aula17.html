@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atividade</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
     body{
       background-image: url('/aula17-imagem-de-fundo/imagem/imagens/wallpaper004.jpg');
       background-repeat: repeat;
@@ -22,86 +23,362 @@
         text-align: center;
         margin: 17px;
         padding:0px;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 10px 10px;
         width: 1000px;
         margin: auto;
         
       }
+      main h1 {
+        font-family: "Roboto Slab", serif;
+      }
       #cores{
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid rgb(43, 10, 231);
+        border-top: 1px solid rgb(43, 10, 231);
         padding: 30px;
+      }
+      #fundo{
+        border-top: 1px solid rgb(43, 10, 231);
+        border-radius:0px;
+        margin: 0px;
+
+      }
+      .caixas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
       }
       #f1{
       display: inline-block;
       border: 1px solid black;
-      border-radius: 30px 30px 30px 30px;
-      width: 190px;
-      height: 200px;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
       background-color: aqua;
     
       }
       #f2{
       display: inline-block;
       border: 1px solid black;
-      border-radius: 30px 30px 30px 30px;
-      width: 190px;
-      height: 200px;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
       background-image: linear-gradient(orange, red);
       }
       #f3{
       display: inline-block;
-      border: 1px solid blue;
-      border-radius: 30px 30px 30px 30px;
-      width: 180px;
-      height: 200px;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
       background-image: url('/aula17-imagem-de-fundo/imagem/imagens/pattern003.png');
       }
+      #b1{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      background-image: url('imagem/imagens/github-p.png');
+      background-repeat: repeat;
+      background-size: 20%;
+      
+      }
+      #b2{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      background-image: url('imagem/imagens/github-p.png');
+      background-repeat: no-repeat;
+      background-size: 29%;
+      background-position: center center;
+      }
+      #b3{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      background-image: url('imagem/imagens/github-p.png');
+      background-repeat: repeat-x;
+      background-size: 25%;
+      background-position: center 
+      center;
+      }
+      #b4{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      background-image: url('imagem/imagens/github-p.png');
+      background-repeat: repeat-y;
+      background-size: 23%;
+      background-position: center center;
+      }
+      #ima1{
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima2{
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima3{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima4{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima5{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima6{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima7{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima8{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #ima9{
+        display: inline-block;
+      border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #c1{
+        border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #c2{
+        border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #c3{
+        border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+      #c4{
+        border: 1px solid black;
+      border-radius: 19px 19px 19px 19px;
+      width: 90px;
+      height: 80px;
+      }
+
       footer{
         text-align: center;
         background-color: rgb(99, 96, 245);
         color: white;
-        padding: 10px;
+        padding: 0px;
         margin: 10px;
+      }
+
+      header  h1 {
+        font-family: "Roboto Slab", serif;
+        background-image: url('/aula17-imagem-de-fundo/imagem/imagens/wallpaper005.jpg');
+        background-size: cover;
+        border-radius: 5px;
+        color: black;
+        padding: 2px;
+        margin: auto;
+        width: 200px;
+        
+      }
+      h2{
+        font-family: "Roboto Slab", serif;
       }
     </style>
 </head>
 <body>
   <header>
-    background
+    <h1><em>Background</em></h1>
   </header>
   <main>
     <p>O exercício a seguir faz um resumo de tudo que aprendi sobre imagens e cores de fundo, utilizando a propriedade background em HTML5 e CSS3. </p>
     <div id="cores">
       <h1>Cores no plano de fundo</h1>
     <p>De forma geral, existem três maneiras mais simples de preencher uma caixa em HTML, usando cores sólidas,gradientes ou imagens. Essas formas são representadas a seguir:</p>
-    <div class="forma" id="f1"></div>
-    <div class="forma" id="f2"></div>
-    <div class="forma" id="f3"></div>
-    </div>
-    
+    <div class="caixas">
+      <figure>
+        <div id="f1"></div>
+        <figcaption>Cor solida</figcaption>
+      </figure>
 
+      <figure>
+        <div id="f2"></div>
+        <figcaption>Cor solida</figcaption>
+      </figure>
+
+      <figure>
+        <div id="f3"></div>
+        <figcaption>Cor solida</figcaption>
+      </figure>
+      
+    </div>
+    </div>
 
     <h1>imagens</h1>
     <p> É possivel colocar imagens como fundo de uma caixa e configurar suas propriedades de diversas maneiras</p>
     <h2>
       Background Repeat
-     
     </h2>
     <p> Com essa propriedade, é possivel definir se uma imagem de fundo irá se repetir quando o tamanho da caixa em que estiver contida for maior do que o tamanho da imagem  em si. por padão ela smepre vai ser repetida. Essa propriedade possui 4valores</p>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="caixas">
+      <figure>
+        <div id="b1"></div>
+        <figcaption>repeat</figcaption>
+      </figure>
+      <figure>
+        <div id="b2"></div>
+        <figcaption>no-repeat</figcaption>
+      </figure>
+      <figure>
+        <div id="b3"></div>
+        <figcaption>repeat-x</figcaption>
+      </figure>
+      <figure>
+        <div id="b4"></div>
+        <figcaption>repeat-y</figcaption>
+      </figure>
+
+    </div>
+
     <h2>Background Position</h2>
     <p>Além de escolher o nivel de repetição do background, também podemos mudar a posição de referência de início das repetições. Por padão, é considerado o canto esquerdo superior (left top), mais podemos ter várias opções.</p>
+    <div class="caixas">
+      <figure>
+        <div id="ima1"></div>
+        <figcaption>left top</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima2"></div>
+        <figcaption>center top</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima3"></div>
+        <figcaption>right top</figcaption>
+      </figure>
+
+    </div>
+      <div class="caixas">
+      <figure>
+        <div id="ima4"></div>
+        <figcaption>left center</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima5"></div>
+        <figcaption>center center</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima6"></div>
+        <figcaption>right center</figcaption>
+      </figure>
+    </div>
+    <div class="caixas">
+
+      <figure>
+        <div id="ima7"></div>
+        <figcaption>left bottom</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima8"></div>
+        <figcaption>center bottom</figcaption>
+      </figure>
+
+      <figure>
+        <div id="ima9"></div>
+        <figcaption>right bottom</figcaption>
+      </figure>
+    </div>
+
     <h2>
       Background Size
     </h2>
     <p> Outra coisa que podemos fazer é redimensionar a imagem para forçá-la a caber na caixa. por padrão nenhum redimensionamento será aplicado, e aimahem será aplicado, e a imagem será exibida do seu tamanho natural. porém, podemos usar a propriedade background-size para alterar esse comportamento.</p>
+    <div class="caixas">
+      <figure>
+        <div id="c1"></div>
+        <figcaption>auto</figcaption>
+      </figure>
+
+      <figure>
+        <div id="c2"></div>
+        <figcaption>[x]%</figcaption>
+      </figure>
+
+      <figure>
+        <div id="c3"></div>
+        <figcaption>cover</figcaption>
+      </figure>
+
+      <figure>
+        <div id="c4"></div>
+        <figcaption>contain</figcaption>
+      </figure>
+  
+    </div>
+    <p>auto: A imagem de fundo será aplicada em seu tamanho original. [x]%: Redimensiona a largura da imagem e faz altura se adaptar automaticamente. cover: Muda o tamanho da imagem para que ela sempre totalmente exibida na tela,sem nenhum corte.
+      contain: redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso ocorram alguns eventuais cortes.
+    </p>
+    <h2>
+      Background Attachment
+    </h2>
+    <p>A última propriedade que podemos configurar é o vinculo (attachment) da imagem de fundo com o resto do documento, principalmente se o conteúdo for maior do que a altura da página e seja necessário vazar uma rolagem vertical.</p>
+
+    <p>scroll: (padrão) a imagem de fundo vai rolar junto com o conteúdo.
+      fixed: A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado (essa propriedade você pode observar no fundo desse site).
+    </p>
+    <div id="fundo">
+      <p> E foi isso que aprendi sobre as imagens de fundo.</p>
+    </div>
   </main>
  
   <footer>
-    Exercício Aula 17: utilizando github,HTML e CSS3, feito por Marcelo Silva()
+    Exercício Aula 17: utilizando github,HTML e CSS3, feito por Marcelo Silva.
   </footer>
 </body>
 </html>
