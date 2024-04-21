@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  width: 400px;
+  border-collapse: collapse;
+
+}
+td{
+  border: 1px solid black;
+  padding: 7px;
+  text-align: center;
+}
+tr.cinza{
+  background-color: #d3d3d3;
+}
+tr.negrito{
+  font-weight: bold;
+}
+
+td.vermelho{
+  color: red;
+}
+td.negrito{
+  font-weight: bold;
+}
+p{
+  color: red;
+  font-weight: bold;
+}
+div.meses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
