@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+caption{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgba(49, 48, 48, 0.884);
+  color: white;
+  margin: 0px ;
+  padding: 3px;
+  font-weight: bold;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  width: 660px;
+}
+td,th {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+td.ntazul{
+  color: rgb(37, 171, 248);
+  font-weight: bold;
+}
+td.ntred{
+  background-color: rgb(255, 195, 205);
+  color: rgb(124, 38, 56);
+  font-weight: bold;
+}
+th.ntyellow{
+  background-color: rgb(236, 222, 141) ;
+}
+td.esquerda{
+  text-align: left;
+}
+th.normal{
+  font-weight: normal;
+}
+
+
